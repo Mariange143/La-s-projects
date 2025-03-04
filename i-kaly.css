@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+   
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    margin: 0vw 3vw;
+    height: 6vw;
+}
+header .logo{
+}
+header .logo img{
+    width: 7vw;
+    align-items: center;
+}
+header nav{
+    width: 70%;
+}
+header nav ul{
+    /* background:purple; */
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header nav ul li a{
+    font-size: 1.5vw;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav ul li button{
+    color: black;
+  background:linear-gradient(green,yellow);
+  padding: 1vw;
+  border: none;
+  border-radius: 0.4vw;
+  
+}
+.section1{
+background: black;
+margin: 0vw 2vw;
+display: flex;
+padding: 4vw;
+
+}
+.section1 .contenu{
+   padding: 5vw;
+
+}
+.section1 .contenu h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana;
+}
+.section1 .contenu h2{
+    color: green;
+
+}
+.section1 .contenu h4{
+    color: yellow;
+    letter-spacing: 1vw;
+    font-size: 0.6vw;
+    text-transform: uppercase;
+}
+.section1 .contenu p{
+    color: white;
+    padding: 1vw;
+    text-align:to right;
+
+}
+.section1 .contenu button{
+    color: black;
+  background:linear-gradient(green,yellow);
+  padding: 1vw;
+  border: none;
+  border-radius: 0.4vw;
+}
+.section1 .contenu1{
+    /* background: pink; */
+    width: 40vw;
+    border-color: blue 3vw;
+    justify-content: space-between;
+    
+}
+.section1 .contenu1 img{
+  width: 40vw;
+  height: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+footer{
+    /* background: red; */
+    padding: 1vw;
+    margin: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+footer label{
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+footer input{
+    background: white;
+    width:87%;
+    padding: 0.5vw;
+    border-radius: 0.4vw;
+    
+}
+footer button{
+    color: black;
+    background:linear-gradient(green,yellow);
+    padding: 1vw;
+    border-radius: 0.4vw;
+}
+.section2{
+   /* background: red; */
+   padding: 2vw;
+   margin: 2vw;
+
+}
+.section2 .box{
+    width: calc(100%/3);
+    /* background: green; */
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    height:25vw;
+    padding: 1vw;
+}
+.section2 .box .box1{
+    background: white;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 25vw;
+}
+.section2 .box .box1 .box11{
+    /* background: pink; */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.4vw;
+}
+.section2 .box .box1 img{
+    width: 100%;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: 0vw 0VW 3VW rgba(55, 54, 54, 0.541);
+}
+.section2 .box .box2{
+    /* background: yellow; */
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 25vw;
+}
+.section2 .box .box2 .box12{
+    /* background: pink; */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.4vw;
+}
+.section2 .box .box2 img{
+    width: 100%;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: 0vw 0VW 3VW rgba(55, 54, 54, 0.541);
+}
+.section2 .box .box3{
+    /* background: purple; */
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 25vw;
+}
+.section2 .box .box2 .box13{
+    /* background: pink; */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.4vw;
+}
+.section2 .box .box3 img{
+    width: 100%;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: 0vw 0VW 3VW rgba(55, 54, 54, 0.541);
+}
+.section3{
+    background: grey;
+    padding: 1vw;
+}
+.section3 h1{
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 3vw;
+}
+.section3 p{
+    text-align: center;
+}
+#profil{
+    background: blue;
+    display: flex;
+    margin: 2vw;
+
+}
+.section3 .contenu{
+    background: white;
+    padding: 1vw;
+   
+    height: 50vw;
+    
+}
+.section3 .contenu .boite{
+    background: red;
+    display: flex;
+   justify-content: start;
+   height: 20vw;
+}
+.section3 .contenu .boite img{
+    width: 5vw;
+    height: 5vw;
+   
+    border: solid 0.3vw black;
+    border-radius: 50%;
+}
+
+.section3 .contenu .boite1{
+    background:yellow;
+    display: flex;
+    justify-content: space-between;
+    height: 20vw;
+}
+.section3 .contenu .boite1 img{
+    width: 5vw;
+    height: 5vw;
+    
+    border: solid 0.3vw black;
+    border-radius: 50%;
+}
+.section3 .contenu .boite2{
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    height: 20vw;
+}
+.section3 .contenu .boite2 img{
+    width: 5vw;
+    height: 5vw;
+   border: solid 0.3vw black;
+    border-radius: 50%;
+    
+}
+
